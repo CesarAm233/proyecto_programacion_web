@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+.Principio{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.Computo{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.Materias{
+    -webkit-column-count: 2;
+    -webkit-column-gap: normal;
+    
+}
+
+.Introduccion{
+    
+    text-indent: 50px;
+    padding: 80px;
+}
+
+.pdf{
+    text-align: center;
+}

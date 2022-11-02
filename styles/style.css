@@ -1,0 +1,66 @@
+
+.menu-bar .navbar-toggler{
+  outline: none;
+  border: none;
+  border-style: none;
+  box-shadow: none;
+}
+
+.header_second_logos{
+  max-width: 5000px;
+  margin-top: -0.3%;
+  height: 100%;
+  margin: auto;
+}
+.header_second{
+  top:60px;
+  height: 70px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+}
+.logo_second{
+  width: 13rem;
+}
+.logo_third{
+  width: 8rem;
+  margin-top: 0%;
+}
+.logo_fourth{
+  width: 8rem;
+  margin-left: 0.5%;
+  margin-top: 0%;
+}
+.prueba1{
+  position: fixed;
+}
+.colorMenu2{
+  color: white;
+}
+.g-title{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.g-letip{
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+footer{
+  width: 100%;
+  background: #f0f2f5;
+  color: #272c35;
+  bottom: 0;
+  position: fixed;
+}
+.cop{
+  background-color: white;
+}

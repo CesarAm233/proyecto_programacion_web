@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Sistemas y Computación</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--<link href="styles/style.css" rel="stylesheet">-->
+        <link href="styles/label_colors.css" rel="stylesheet">
+    </head>
+    <body style="max-width: 100%;">
+        <br>
+
+
+        <!-- Division de primer encabezado -->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #10241c;">
+            <div class="container">
+            <!-- Logo tipo en imagen -->
+            <a href="http://www.gob.mx/" class="navbar-brand">
+                <img class="d-inline-block align-top" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" width="230px" height="29px" alt="Página de inicio, Gobierno de México" style="background-color: transparent;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                <div class="navbar-nav">
+                    <div class="nav-item active">
+                        <a href="https://www.gob.mx/tramites" class="nav-link active" style="color: white;">Trámites</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="https://www.gob.mx/gobierno" class="nav-link" style="color: white; width: 40px;">Gobierno</a>
+
+                    </div>
+                    <div class="nav-item">
+                        <a href="https://www.gob.mx/busqueda" class="nav-link" style="color: white;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="140px" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <br><br>
+        <!-- División de imagenes -->
+        <div class="container">
+            <div class="header_second">        
+                <div class="header_second_logos container">
+                    <a href="http://education.gob.mx"><img class="logo_second logoEducacion" src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/logo-educacion.svg"></a>
+                    <img src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/linea-vertical-separador-logos.svg">
+                    <a href="http://tecnm.mx"><img class="logo_third logoTnm" src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/logo-tecnm.svg"></a>
+                    <img src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/linea-vertical-separador-logos.svg">
+                    <a href="http://www.tijuana.tecnm.mx"><img src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/logo_TECT.png" class="logoITT"></a>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- División de menú 1 -->            
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+    
+                    </span>
+                </button>
+                <div class="dropdown show">                
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            </svg>
+                            Alumnos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/maestros/ayuda-maestros">¿Necesitas ayuda?</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/actividades-extraescolares/">Actividades Extraexcolares <br>Formación Integral</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/becas/">Becas</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/becas-de-posgrado/">Becas de Posgrado</a>
+                            <a class="dropdown-item" href="#https://www.tijuana.tecnm.mx/coordinaciones/">Coordinadores</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/correo-institucional-2/">Correo Institucional</a>
+                            <a class="dropdown-item" href="http://201.174.121.81/evaldoc/">Evaluación Docente</a>
+                            <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/ingles-1">Inglés</a>
+                            <a class="dropdown-item" href="https://sitec.tijuana.tecnm.mx/">Kárdex</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/09/Reglamento-alumnos-ITT-sep-2020-INTERNET.pdf">Reglamento a Estudiantes</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/residencias-profesionales/">Residencias Profesionales</a>
+                            <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/alumnos/resello-reposici%C3%B3n-de-credencial?authuser=0">Resello/Reposición de Creedencial</a>
+                            <a class="dropdown-item" href="http://www.imss.gob.mx/faq/seguro-estudiantes">Seguro Facultativo IMMS</a>
+                            <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/servicios_covid19">Servicios Digitales [COVID19]</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/servicio-social/">Servicio Social</a>
+                            <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/titulacion">Titulación</a>
+                            <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/titulos-y-cedulas/titulos-para-entregar?authuser=0">Títulos y cédulas para entregar</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/visitas-industriales/">Visitas Industriales</a>
+
+                        </div>
+                </div>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                        </svg>
+                        Académicos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/calendario-academico-2/">Calendario Académico</a>
+                        <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/cambio-carrera-1">Cambio de Carrera</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/calibaja-webinars/">CaliBaja Webinars</a>
+                        <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/titulos-y-cedulas/titulos-para-entregar">Certificados de Posgrado</a>
+                        <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/certificado/certificado-parcial-o-duplicado">Certificado Parcial o Duplicado</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/coordinaciones/">Coordinaciones Académicas</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/cursos-de-verano-2/">Cursos de Verano</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/educacion-a-distancia/">Educación a Distancia</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/08/CORREOS-EGRESADOS-AVISO.pdf">Entrega de Certificados</a>
+                        <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/nuevo-ingreso/equivalencia-de-estudios">Equivalencias de Estudios</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/11/FB-LETRERO-EVALUACION-DOCENTE-2020-1.jpg">Evaluación Docente</a>
+                        <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/especiales-y-globales/examenes-globales-y-especiales">Exámenes Especiales y Globales</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/graduaciones/">Graduaciones</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/medios-audiovisuales/">Medios Audiovisuales</a>
+                        <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/movilidad">Movilidad</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/coordinacion-de-orientacion-educativa-2/">Orientación Educativa</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/programa-de-capacitacion-para-emprendedores/">Programa de Capacitación para Emprendedores</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/reticulas/">Retículas</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/revista-unouno/">Revista UNO:UNO</a>
+                        <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/traslado">Translados</a>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Solicitud de Cartas</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWhoIq0YDr5MOW0poRYeX2j9zip2FRAGBztXPUydD7v8q_Zg/viewform">Carta para Residencias Profesionales</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWhoIq0YDr5MOW0poRYeX2j9zip2FRAGBztXPUydD7v8q_Zg/viewform">Carta para Prácticas Profesionales</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWhoIq0YDr5MOW0poRYeX2j9zip2FRAGBztXPUydD7v8q_Zg/viewform">Carta para Servico Social</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWhoIq0YDr5MOW0poRYeX2j9zip2FRAGBztXPUydD7v8q_Zg/viewform">Carta para Educación Dual</a>
+                        </div>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/taller-de-empleabilidad-mas-competencias-blandas/">Taller de Empleabilidad más Competencias Blandas</a>
+
+
+                    </div>
+                </div>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                        Personal ITT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cursos</a><br>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://sicavisp.apps.funcionpublica.gob.mx/">Los conflictos de interés en el ejercicio de servicio público (inscripción del 02 al 06 de noviembre del 2020)</a>
+                        </div>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Curriculares Oficios</a><br>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/11/MONTOS-OFICIO-CIRCULAR-UPRH-O766-2020.pdf">Circular No. SRCI/UP/UPRH/0766/2020 Evaluación de Desempeño</a>
+                        </div>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Convocatorias
+                        </a><br>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">  
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/10/CIRCULAR-No.-01-RH-2020-POSTER-OCT-2020-ALTAMIRANO.pdf">CIRCULAR No. 01-RH-2020 POSTER OCT-2020 ALTAMIRANO</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/10/CIRCULAR-No.-02-RH-2020-POSTER-OCT-2020-RAFAEL-RAMIREZ.pdf">CIRCULAR No- 02-RH-2020 POSTER OCT-2020 RAFAEL RAMIREZ</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/11/Convocatoria-Sabatico-2021-final.pdf">CONVOCATORIA1-2021 AÑO SABÁTICO</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/convocatoria-ano-sabatico-2-2020/">Convocatoria Año Sabático 2-2020</a>
+                            <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana/verano">Convocatoria a Docentes Cursos de Verano 2020 Modalidad a Distancia</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/convocatoria-al-programa-de-estimulo-al-desempeno-del-personal-docente-2020/">Convocatoria al programa de Estímulo al Desempeño del Personal Docente 2020</a>
+                        </div>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/cursos-intersemestrales-2/">Cursos Intersemestrales</a>
+                        <a class="dropdown-item" href="https://declaranet.gob.mx/">DeclaraNet</a>
+                        <a class="dropdown-item" href="http://velpecula.crodecelaya.edu.mx/capacitaciontecnm/">Detección de Necesidades de Capacitación del 19 de octubre al 23 de octubre de 2020</a>                        
+                        <a class="dropdown-item" href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdYeTO9v_rWJWYv5QhyxGAbLLVVSdqNHEph5oZc3psk_tPX3A/viewform">Editorial</a>
+                        <a class="dropdown-item" href="https://www.participa.gob.mx/sfp/codigo-de-etica-apf-2020">Evaluación del cumplimiento del Código de Ética de las personas servidoras públicas de Gobierno Federal</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2021/04/Guia-APA-del-ITT.pdf">Guía Normas APA 7° Edición</a>
+                        <a class="dropdown-item" href="https://sites.google.com/a/tectijuana.mx/escolares/soy-maestro-y-necesito-ayuda">¿Necesitas Ayuda?</a>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Potención de SVI
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/10/CIRCULAR-3-RH-2.pdf">Circular</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/10/Manual-de-llenado-FORMATOS_SVI_TECNM_V7.pdf">Formato a llenar</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/wp-content/uploads/2020/10/Manual-de-llenado-FORMATOS_SVI_TECNM_V7.pdf">Manual de llenado</a>
+                        </div>
+                        <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/maestros/registro-y-seguimiento-del-curso">Registro y seguimiento de cursos</a>
+                        <a class="dropdown-item" href="https://sitec.tijuana.tecnm.mx/acceso/">SITEC</a>
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/sidepaae/">SIDEPAAE</a>
+                        <a class="dropdown-item" href="https://portalautoservicios.sep.gob.mx/login.jsp">Talon Cheque SEP</a>
+                        <a class="dropdown-item" href="https://portalautoservicios-tnm.sep.gob.mx/login.jsp">Talon de Cheque SEP TecNM</a>
+
+
+                    </div>
+                </div>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                        </svg>  
+                        Departamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Académicos</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://cgiqtectijuana.mx/?page_id=26">Centro de Graduados e Investigación</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/ciencias-basicas/">Ciencias Básicas</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/ciencias-de-la-tierra/">Ciencias de la tierra</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/desarrollo-academico/">Desarrollo Académico</a>
+                            <a class="dropdown-item" href="https://profesionales2.wixsite.com/deptijuana">Devisión de Estudios Profesionales</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/division-de-estudios-de-posgrado/">División de Estudios de Posgrado e Investigación</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/ciencias-economico-administrativas/">Económico Administrativas</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/ingenieria-electrica-y-electronica/">Eléctrica y Electrónica</a>
+                            <a class="dropdown-item" href="http://www.ingenieriaindustrialitt.org/">Ingeniería Industrial</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/metal-mecanica/">Metal Mecánica</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/quimica-y-bioquimica/">Química y Bioquímica</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/sistemas-y-computacion/">Sistemas y Computación</a>
+                        </div>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Planeación y Vinculación</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/centro-de-informacion/">Centro de Información</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/comunicacion-y-difusion/">Comunicación y Difusión</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/actividades-extraescolares/">Actividades Extraescolares (Formación Integral)</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/gestion-tecnologica-y-vinculacion/">Gestión Tecnológica y Vinculación</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/planeacion-programacion-y-presupestacion/">Planeación, Programación y Presupestación</a>
+                            <a class="dropdown-item" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/pagina-principal">Servicios Escolares</a>
+                        </div>
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios Administrativos</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">    
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/centro-de-computo/">Centro de Cómputo</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/recursos-financieros/">Recursos Financieros</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/mantenimiento-y-equipo/">Mantenimiento y Equipos</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/recursos-humanos/">Recursos Humanos</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/concurso-de-licitacion/">Materiales y servicios</a>
+                            <a class="dropdown-item" href="https://sites.google.com/a/tectijuana.edu.mx/sgc/">Sistema de Gestión y Calidad</a>
+                            <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/transportes-it-tijuana/">Transportes IT Tijuana</a>
+                        </div>
+                        <a class="dropdown-item" href="#">POA</a>
+                    </div>
+                </div>
+                <div class="dropdown show">
+                    <a class="btn " href="https://docs.google.com/forms/d/e/1FAIpQLSeXcbOp__hqXjySolF2AJnDmCntzUsri4lnkmZ0-xQbxgZcng/viewform" role="button" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                        </svg>
+                        Correo Institucional
+                    </a>
+                </div>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                        </svg>
+                        Directorio por contigencia COVID 19
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.tijuana.tecnm.mx/25952-2/">Directorio</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown show">
+                    <a class="btn " href="https://www.tijuana.tecnm.mx/wp-content/uploads/2021/04/ORGANIGRAMA-INTERNO-2021-ABRIL-scaled.jpg" role="button" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+                        </svg>
+                        Organigrama
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- División de menú 2 -->
+        <nav class="navbar navbar-light" style="background-color: #203c6c;" id="openPopup">
+            <nav class="navbar navbar-light" style="background-color: #203c6c;" id="openPopup">
+            <div class="">
+                <div class="dropdown show" class="border-0" style="background-color: transparent;">
+                    <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/50-aniversario/" role="button" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false" style="background-color: #203c6c;">
+                        <img src="https://tijuana.tecnm.mx/wp-content/uploads/2020/05/house-white.png" width="18px" height="18px">  
+                        50 ANIVERSARIO DEL ITT
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown show">
+                <a class="btn dropdown-toggle colorMenu2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;" >
+                    Conócenos
+                </a>
+                <div class="dropdown-menu colorMenu2" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/mensaje-del-director/">Mensaje del Director</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/45-aniversario-2/">Aniversario</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/controlaria-social-de-los-institutos-tecnologicos-federales-descentralizados-y-centros-del-tecnm/">Contraloria Social del TecNM</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/convenios/">Convenios</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/efemerides/">Efemérides</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/espacio-100-libre-de-plastico/">Espacio 100% libre de Plástico</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/historia-institucional/">Historia</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/instalaciones/?preview_id=514&preview_nonce=0ec40207d2&_thumbnail_id=-1&preview=true">Instalaciones</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/mision-vision-y-valores/">Misión, Visión y Valores</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/mensaje-institucional/">Mensaje Institucional</a>
+                    <a class="dropdown-item colorMenu2" href="http://www.dgest.gob.mx/informacion/himno-de-los-institutos-tecnologicos">Himno de los Institutos Tecnológicos</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/sistema-de-gestion-de-igualdad-de-genero-y-no-discriminacion-sgig/">Sistema de Gestión de Igualdad de Género y No Discriminación (SGIG)</a>
+                    <a class="btn dropdown-toggle colorMenu2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;" >
+                        Transparencia ITT</a>
+                    <div class="dropdown-menu colorMenu2" aria-labelledby="dropdownMenuLink">   
+                        <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/rendicion-de-cuentas/">Rendición de Cuentas</a>
+                        <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/proexoes-2015/">Programa de Expasión de la Oferta de Educación Media y Superior</a>
+                        <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/construccion-it-tijuana/">Plan de Construcciones IT Tijuana</a>
+                    </div>                
+                </div>
+            </div>
+            <div class="dropdown show">
+                <a class="btn dropdown-toggle colorMenu2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Admisión
+                </a>
+                <div class="dropdown-menu colorMenu2" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/curso-de-induccion-nuevo-ingreso-2021/">Curso de Inducción Nuevo Ingreso 2021</a>
+                    <a class="btn dropdown-toggle colorMenu2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                        Orden de Reinscripción</a>
+                    <div class="dropdown-menu colorMenu2" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item colorMenu2" href="https://profesionales2.wixsite.com/deptijuana">Orden de reinscripción</a>
+                        <a class="dropdown-item colorMenu2" href="https://sitec.tijuana.tecnm.mx/">SITEC</a>
+                    </div>
+                    <a class="dropdown-item colorMenu2" href="https://sites.google.com/tectijuana.edu.mx/servicios-escolares-itt/nuevo-ingreso/proceso-de-inscripcion/licenciatura?fbclid=IwAR3E0noZDeQGXeLSx9XU4swO62g7bPUz1FcFVLLHtAnuD6gAxgCbPEyvfR0">Proceso de Inscripción</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/admision-2020/">Resultados de Admisión Febrero - Junio 2021</a>
+                </div>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/oferta-educativa/" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Oferta Educativa
+                </a>
+            </div>
+            <div class="dropdown show">
+                <a class="btn dropdown-toggle colorMenu2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Oficina Virtual
+                </a>
+                <div class="dropdown-menu colorMenu2" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/oficina-virtual-de-coordinaciones-de-carreras/">Oficina Virtual de Coornaciones de Carreras</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/oficina-virtual/">Ofcina Virtual Desarrollo Académico</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/oficina-virtual-departamento-de-actividad-extraescolar/">Ofcina Virtual Actividades Extraescolares</a>
+                    <a class="dropdown-item colorMenu2" href="https://www.tijuana.tecnm.mx/oficina-virtual-de-gestion-tecnologica-y-vinculacion/">Oficina Virtual de Gestión Tecnológica y Vinculación</a>
+                </div>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/ipa-wuak/" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    IpaWuak
+                </a>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/galeria-fotografica-it-tijuana2/" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Galerías
+                </a>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/bolsa-de-trabajo/" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Bolsa de trabajo
+                </a>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://livestream.com/tectijuana/events/6871847/videos/206383998" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    XHITT 88.7 FM
+                </a>
+            </div>
+            <div class="dropdown show">
+                <a class="btn colorMenu2" href="https://www.tijuana.tecnm.mx/categoria/tec-noticias/" role="button" aria-haspopup="true" aria-expanded="false"  style="background-color: #203c6c;">
+                    Tec Noticias
+                </a>
+            </div>
+        </nav>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <div class="container">
+            <h2 style="color: #1B396A; font-size: 35pt;">Sistemas y Computación</h2>
+        </div>
+    </di>
+
+    <br>
+
+    <div class="container shadow-sm p-4 mb-4 bg-white">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/siscompu.png" width="368" height="120">
+            </div>
+            <div class="col-md-6">
+                <span style="font-size: 12pt;">
+                    <strong>Dra. María de los Ángeles Quezada Cisnero</strong>
+                </span>
+                <br>
+                <span style="font-size: 12pt;">
+                    Jefe de Departamento de Sistemas y Computación
+                </span>
+                <br>
+                <span style="font-size: 12pt;">
+                    Teléfono.(664)607 84 00 ext. 139
+                </span>
+                <br>
+                <span style="font-size: 12pt;">
+                    Correo oficial:
+                    <a href="mailto:angeles.quezada@tectijuana.edu.mx">angeles.quezada@tectijuana.edu.mx</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <p><a href="https://goo.gl/maps/GMSGiTx8TdAkZSnh7">Unidad Tomás Aquino, Calzada Tecnológico S/N Esq. Av. Castillo de Chapultepec y calle Cuauhtemotzin, Fracc. Tomás Aquino C.P. 22414</a></p>
+    </div>
+
+    <div class="container shadow-sm p-4 mb-4 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a title="sistemascompu" href="isc_sistemas.html"><img src="img/sistemas.png" alt="sistemascompu" width="368" height="120"></a>
+                </div>
+                <div class="col-md-6">
+                    <a title="TiSS" href="pagina_tics.html"><img src="img/tiss.png" alt="TiSS" width="368" height="120"></a>
+                </div>
+            </div>
+            <br>
+            <div class="container text-center">
+                <a title="Infor" href="pagina_informatica.html"><img src="img/Ing_Informatica.png" alt="Infor" width="368" height="120"></a>
+            </div>
+        </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
